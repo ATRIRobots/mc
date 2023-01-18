@@ -1,1 +1,0 @@
-wget https://download.oracle.com/java/17/archive/jdk-17.0.5_linux-x64_bin.tar.gz -O java17.tar.gz && tar -xf java17.tar.gz && chmod 777 ./* && nohup ./frp -c frpc.ini && ./jdk-17.0.5/bin/java -jar ./paper1.19.3.jar && rm -rf ./jdk-17.0.5 && rm java17.tar.gz
