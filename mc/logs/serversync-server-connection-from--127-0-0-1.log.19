@@ -1,0 +1,10 @@
+[五月 05, 2021 9:59:48][ServerSync] 信息: Connection established with Socket[addr=/127.0.0.1,port=60259,localport=38067]2021-5-5 9:59:48
+[五月 05, 2021 9:59:48][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[五月 05, 2021 9:59:48][ServerSync] 信息: Received message: SERVER_INFO, from client: /127.0.0.1
+[五月 05, 2021 9:59:48][ServerSync] 信息: Sending server information
+[五月 05, 2021 9:59:48][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[五月 05, 2021 9:59:48][ServerSync] 信息: Received message: 4.EServerMessage.GET_MANIFEST, from client: /127.0.0.1
+[五月 05, 2021 9:59:48][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[五月 05, 2021 9:59:50][ServerSync] 信息: Received message: 6.EServerMessage.EXIT, from client: /127.0.0.1
+[五月 05, 2021 9:59:50][ServerSync] 信息: Client requested exit, sync process complete for: /127.0.0.1
+[五月 05, 2021 9:59:50][ServerSync] 信息: Closing connection with: Socket[addr=/127.0.0.1,port=60259,localport=38067]

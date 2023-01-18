@@ -1,0 +1,181 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2022-01-23 15:57:18 CST
+Description: 服务器在进行tick循环时发生异常 (Exception in server tick loop)
+
+net.minecraftforge.fml.common.LoaderException: enderioconduitsappliedenergistics Failed to load new mod instance.
+    at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:599)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:498)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:215)
+    at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:498)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:132)
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:600)
+    at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:101)
+    at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:329)
+    at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:171)
+    at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:593)
+    at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: crazypants.enderio.conduit.me.conduit.MEMixin
+    at com.enderio.core.common.transform.EnderCorePlugin$MixinData.initialize(EnderCorePlugin.java:54)
+    at com.enderio.core.common.transform.EnderCorePlugin.lambda$loadMixinSources$0(EnderCorePlugin.java:109)
+    at java.util.ArrayList.forEach(ArrayList.java:1257)
+    at com.enderio.core.common.transform.EnderCorePlugin.loadMixinSources(EnderCorePlugin.java:109)
+    at com.enderio.core.common.transform.EnderCorePlugin.loadMixinSources(EnderCorePlugin.java:103)
+    at com.enderio.core.common.transform.EnderCorePlugin.loadMixinSources(EnderCorePlugin.java:99)
+    at com.enderio.core.common.mixin.SimpleMixinLoader.loadMixinSources(SimpleMixinLoader.java:8)
+    at crazypants.enderio.conduit.me.EnderIOConduitsAppliedEnergistics.<init>(EnderIOConduitsAppliedEnergistics.java:58)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+    at java.lang.Class.newInstance(Class.java:442)
+    at net.minecraftforge.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:190)
+    at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:594)
+    ... 31 more
+Caused by: java.lang.ClassNotFoundException: crazypants.enderio.conduit.me.conduit.MEMixin
+    at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+    at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+    at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+    at java.lang.Class.forName0(Native Method)
+    at java.lang.Class.forName(Class.java:264)
+    at com.enderio.core.common.transform.EnderCorePlugin$MixinData.initialize(EnderCorePlugin.java:51)
+    ... 45 more
+Caused by: java.lang.NoClassDefFoundError: appeng/api/networking/IGridHost
+    at java.lang.ClassLoader.defineClass1(Native Method)
+    at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+    at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+    ... 50 more
+Caused by: java.lang.ClassNotFoundException: appeng.api.networking.IGridHost
+    at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+    at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+    at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+    ... 54 more
+Caused by: java.lang.NullPointerException
+    at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+    ... 56 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- 系统详情 --
+  Mohist版本: 1.12.2-75
+  操作系统: Windows 10 (amd64) 版本 10.0
+  JAVA版本: 1.8.0_252, AdoptOpenJDK
+  JAVA虚拟机版本: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+  内存: 783771584 bytes (747 MB) / 1709178880 bytes (1630 MB) up to 2863661056 bytes (2731 MB)
+  JAVA虚拟机参数: 2 total; -Xmx3G -Xms1G
+  内部缓存: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  CraftBukkit信息: Running: 
+                    Failed to handle CraftCrashReport: craftbukkit not runs
+  FML: MCP 9.42 Powered by Forge 14.23.5.2854 64 mods loaded, 64 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                                | Version            | Source                                                 | Signature                                |
+       |:----- |:--------------------------------- |:------------------ |:------------------------------------------------------ |:---------------------------------------- |
+       | LC    | minecraft                         | 1.12.2             | minecraft.jar                                          | None                                     |
+       | LC    | mcp                               | 9.42               | minecraft.jar                                          | None                                     |
+       | LC    | mohist                            | 1.12.2-75          | mohist.jar                                             | None                                     |
+       | LC    | FML                               | 8.0.99.99          | mohist-1.12.2-75-server.jar                            | None                                     |
+       | LC    | forge                             | 14.23.5.2854       | mohist-1.12.2-75-server.jar                            | None                                     |
+       | LC    | jecharacters                      | 1.12.0-3.4.7       | JustEnoughCharacters-1.12.0-3.4.7.jar                  | None                                     |
+       | LC    | openmodscore                      | 0.12.2             | minecraft.jar                                          | None                                     |
+       | LC    | endercore                         | 1.12.2-0.5.76      | [末影接口前置]EnderCore-1.12.2-0.5.76.jar                    | None                                     |
+       | LC    | jei                               | 4.15.0.297         | jei_1.12.2-4.15.0.297.jar                              | None                                     |
+       | LC    | codechickenlib                    | 3.2.3.358          | CodeChickenLib-1.12.2-3.2.3.358-universal.jar          | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LC    | redstoneflux                      | 2.1.1              | RedstoneFlux-1.12-2.1.1.1-universal(1).jar             | None                                     |
+       | LC    | cofhcore                          | 4.6.6              | CoFHCore-1.12.2-4.6.6.1-universal(1).jar               | None                                     |
+       | LC    | cofhworld                         | 1.4.0              | CoFHWorld-1.12.2-1.4.0.1-universal(1).jar              | None                                     |
+       | LC    | thermalfoundation                 | 2.6.7              | ThermalFoundation-1.12.2-2.6.7.1-universal(1).jar      | None                                     |
+       | LC    | thermalexpansion                  | 5.5.7              | ThermalExpansion-1.12.2-5.5.7.1-universal(1).jar       | None                                     |
+       | LC    | enderio                           | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | LC    | enderiointegrationtic             | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | LC    | enderiobase                       | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | LC    | enderioconduits                   | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | LE    | enderioconduitsappliedenergistics | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderioconduitsopencomputers      | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderioconduitsrefinedstorage     | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderiointegrationforestry        | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderiointegrationticlate         | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderioinvpanel                   | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderiomachines                   | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | enderiopowertools                 | 5.2.66             | [末影接口]EnderIO-1.12.2-5.2.66.jar                        | None                                     |
+       | L     | buildcraftlib                     | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcraftcore                    | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | ic2                               | 2.8.221-ex112      | industrialcraft-2-2.8.221-ex112.jar                    | None                                     |
+       | L     | mcmultipart                       | 2.5.3              | MCMultiPart-2.5.3.jar                                  | None                                     |
+       | L     | mekanism                          | 1.12.2-9.8.3.390   | Mekanism-1.12.2-9.8.3.390.jar                          | None                                     |
+       | L     | gasconduits                       | 1.12.2-1.2.4       | [末影接口气体管道]GasConduits-1.12.2-1.2.4.jar                 | None                                     |
+       | L     | enderioendergy                    | 5.2.59             | [末影接口管道]EnderIO-endergy-1.12.2-5.2.59.jar              | None                                     |
+       | L     | theoneprobe                       | 1.4.28             | theoneprobe-1.12-1.4.28.jar                            | None                                     |
+       | L     | immersiveengineering              | 0.12-98            | ImmersiveEngineering-0.12-98(2).jar                    | None                                     |
+       | L     | alternatingflux                   | 0.12.2-2           | alternatingflux-0.12.2-2.jar                           | None                                     |
+       | L     | appliedenergistics2               | rv6-stable-7       | appliedenergistics2-rv6-stable-7.jar                   | None                                     |
+       | L     | buildcraftbuilders                | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcrafttransport               | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcraftsilicon                 | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcraftcompat                  | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcraftenergy                  | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcraftfactory                 | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | buildcraftrobotics                | 7.99.24.8          | buildcraft-all-7.99.24.8.jar                           | None                                     |
+       | L     | extrautils2                       | 1.0                | extrautils2-1.12-1.9.9.jar                             | None                                     |
+       | L     | fluidict                          | 1.2                | fluidict-1.2.jar                                       | None                                     |
+       | L     | glassential                       | 1.1.0              | glassential-1.12.2-1.1.0(1).jar                        | None                                     |
+       | L     | jepb                              | 1.2.1              | jepb-1.12-1.2.1.jar                                    | None                                     |
+       | L     | mekanismgenerators                | 1.12.2-9.8.3.390   | MekanismGenerators-1.12.2-9.8.3.390.jar                | None                                     |
+       | L     | mekanismtools                     | 1.12.2-9.8.3.390   | MekanismTools-1.12.2-9.8.3.390.jar                     | None                                     |
+       | L     | recipehandler                     | 0.13               | NoMoreRecipeConflict-0.13(1.12.2).jar                  | None                                     |
+       | L     | nuclearcraft                      | 2.18y              | NuclearCraft-2.18y-1.12.2.jar                          | None                                     |
+       | L     | openmods                          | 0.12.2             | OpenModsLib-1.12.2-0.12.2.jar                          | None                                     |
+       | L     | openblocks                        | 1.8.1              | OpenBlocks-1.12.2-1.8.1.jar                            | None                                     |
+       | L     | pneumaticcraft                    | 1.12.2-0.11.15-398 | pneumaticcraft-repressurized-1.12.2-0.11.15-398(1).jar | None                                     |
+       | L     | sonarcore                         | 5.0.19             | sonarcore-1.12.2-5.0.19-20.jar                         | None                                     |
+       | L     | practicallogistics2               | 3.0.8              | practicallogistics2-1.12.2-3.0.8-11(1).jar             | None                                     |
+       | L     | reborncore                        | 3.19.4.529         | RebornCore-1.12.2-3.19.4.529-universal.jar             | None                                     |
+       | L     | techreborn                        | 2.27.3.1084        | TechReborn-1.12.2-2.27.3.1084-universal.jar            | None                                     |
+       | L     | thermaldynamics                   | 2.5.6              | ThermalDynamics-1.12.2-2.5.6.1-universal(1).jar        | None                                     |
+       | L     | topaddons                         | 1.12.2-1.13.0      | topaddons-1.12.2-1.13.0.jar                            | None                                     |
+       | L     | vanillafix                        | 1.0.10-150         | VanillaFix-1.0.10-150.jar                              | None                                     |
+       | L     | techreborn_compat                 | 1.0.0              | TechReborn-ModCompatibility-1.12.2-1.4.0.76.jar        | None                                     |
+  Loaded coremods (and transformers): IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+                                        blusunrize.immersiveengineering.common.asm.IEClassTransformer
+                                      EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+                                        com.enderio.core.common.transform.EnderCoreTransformer
+                                        com.enderio.core.common.transform.SimpleMixinPatcher
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      JechCore (JustEnoughCharacters-1.12.0-3.4.7.jar)
+                                        me.towdium.jecharacters.core.JechClassTransformer
+                                      MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+                                        openmods.core.OpenModsClassTransformer
+  OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:ENABLED],[player_render_hook:ENABLED],[horse_null_fix:FINISHED]
+  Ender IO: ~~ERROR~~ NullPointerException: null
+  Suspected Mods: EnderCore (endercore), Ender IO Powertools (enderiopowertools)
+  Profiler Position: N/A (disabled)
+  Is Modded: Definitely; Server brand changed to 'Mohist'
+  Type: Dedicated Server (map_server.txt)

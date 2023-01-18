@@ -1,0 +1,36 @@
+{
+  "general": {
+    "push_client_mods": true,
+    "sync_mode": 2
+  },
+  "connection": {
+    "port": 38067,
+    "buffer": 65536
+  },
+  "rules": {
+    "directories": [
+      {
+        "path": "mods",
+        "mode": "mirror"
+      }
+    ],
+    "files": {
+      "include": [
+        "mods/**",
+		"config/theoneprobe.cfg",
+		"servers.dat",
+		"bg/**"
+      ],
+      "ignore": [
+        "**/serversync-*.jar",
+        "**/serversync-*.cfg"
+      ],
+      "redirect": [
+        
+      ]
+    }
+  },
+  "misc": {
+    "locale": "zh_CN"
+  }
+}

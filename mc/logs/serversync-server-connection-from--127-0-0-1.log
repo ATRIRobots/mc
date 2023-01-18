@@ -1,0 +1,137 @@
+[十二月 25, 2021 6:56:40][ServerSync] 信息: Connection established with Socket[addr=/127.0.0.1,port=57663,localport=38067]2021-12-25 18:56:40
+[十二月 25, 2021 6:56:40][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:41][ServerSync] 信息: Received message: SERVER_INFO, from client: /127.0.0.1
+[十二月 25, 2021 6:56:41][ServerSync] 信息: Sending server information
+[十二月 25, 2021 6:56:41][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:41][ServerSync] 信息: Received message: 4.EServerMessage.GET_MANIFEST, from client: /127.0.0.1
+[十二月 25, 2021 6:56:41][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:42][ServerSync] 信息: Received message: 6.EServerMessage.EXIT, from client: /127.0.0.1
+[十二月 25, 2021 6:56:42][ServerSync] 信息: Client requested exit, sync process complete for: /127.0.0.1
+[十二月 25, 2021 6:56:42][ServerSync] 信息: Closing connection with: Socket[addr=/127.0.0.1,port=57663,localport=38067]
+[十二月 25, 2021 6:56:45][ServerSync] 信息: Connection established with Socket[addr=/127.0.0.1,port=57665,localport=38067]2021-12-25 18:56:45
+[十二月 25, 2021 6:56:45][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:45][ServerSync] 信息: Received message: SERVER_INFO, from client: /127.0.0.1
+[十二月 25, 2021 6:56:45][ServerSync] 信息: Sending server information
+[十二月 25, 2021 6:56:45][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:46][ServerSync] 信息: Received message: 4.EServerMessage.GET_MANIFEST, from client: /127.0.0.1
+[十二月 25, 2021 6:56:46][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:47][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:56:47][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:56:47][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\1.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:56:47][ServerSync] 详细: File size is: 846201
+[十二月 25, 2021 6:56:47][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\1.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:56:47][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:56:52][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:56:52][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:56:52][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\10.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:56:52][ServerSync] 详细: File size is: 945962
+[十二月 25, 2021 6:56:52][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\10.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:56:52][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:57:02][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:57:02][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:57:02][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\100.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:57:02][ServerSync] 详细: File size is: 747582
+[十二月 25, 2021 6:57:02][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\100.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:57:02][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:57:08][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:57:08][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:57:08][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\101.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:57:08][ServerSync] 详细: File size is: 1036714
+[十二月 25, 2021 6:57:08][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\101.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:57:08][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:57:14][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:57:14][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:57:14][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\102.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:57:14][ServerSync] 详细: File size is: 841886
+[十二月 25, 2021 6:57:14][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\102.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:57:14][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:57:21][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:57:21][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:57:21][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\103.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:57:21][ServerSync] 详细: File size is: 1160916
+[十二月 25, 2021 6:57:21][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\103.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:57:21][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:57:49][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:57:49][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:57:49][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\104.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:57:49][ServerSync] 详细: File size is: 636987
+[十二月 25, 2021 6:57:49][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\104.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:57:49][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:57:55][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:57:55][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:57:55][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\105.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:57:55][ServerSync] 详细: File size is: 786207
+[十二月 25, 2021 6:57:55][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\105.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:57:55][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:58:07][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:58:07][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:58:07][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\106.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:58:07][ServerSync] 详细: File size is: 851376
+[十二月 25, 2021 6:58:07][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\106.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:58:07][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:58:22][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:58:22][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:58:22][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\107.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:58:22][ServerSync] 详细: File size is: 667550
+[十二月 25, 2021 6:58:22][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\107.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:58:22][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:58:34][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:58:34][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:58:34][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\108.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:58:34][ServerSync] 详细: File size is: 1119561
+[十二月 25, 2021 6:58:34][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\108.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:58:34][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:58:54][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:58:54][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:58:54][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\109.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:58:54][ServerSync] 详细: File size is: 851563
+[十二月 25, 2021 6:58:54][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\109.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:58:54][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:59:21][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:59:21][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:59:21][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\11.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:59:21][ServerSync] 详细: File size is: 1248954
+[十二月 25, 2021 6:59:21][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\11.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:59:21][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:59:38][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:59:38][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:59:38][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\110.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:59:38][ServerSync] 详细: File size is: 930280
+[十二月 25, 2021 6:59:38][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\110.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:59:38][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 6:59:58][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 6:59:58][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 6:59:58][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\111.jpg to client /127.0.0.1...
+[十二月 25, 2021 6:59:58][ServerSync] 详细: File size is: 1254090
+[十二月 25, 2021 6:59:58][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\111.jpg, to client: /127.0.0.1
+[十二月 25, 2021 6:59:58][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 7:00:08][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 7:00:08][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 7:00:08][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\112.jpg to client /127.0.0.1...
+[十二月 25, 2021 7:00:08][ServerSync] 详细: File size is: 716269
+[十二月 25, 2021 7:00:08][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\112.jpg, to client: /127.0.0.1
+[十二月 25, 2021 7:00:08][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 7:00:15][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 7:00:15][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 7:00:15][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\113.jpg to client /127.0.0.1...
+[十二月 25, 2021 7:00:15][ServerSync] 详细: File size is: 1346218
+[十二月 25, 2021 7:00:15][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\113.jpg, to client: /127.0.0.1
+[十二月 25, 2021 7:00:15][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 7:00:27][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 7:00:27][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 7:00:27][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\114.jpg to client /127.0.0.1...
+[十二月 25, 2021 7:00:27][ServerSync] 详细: File size is: 882867
+[十二月 25, 2021 7:00:27][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\114.jpg, to client: /127.0.0.1
+[十二月 25, 2021 7:00:27][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 7:00:32][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 7:00:32][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 7:00:32][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\115.jpg to client /127.0.0.1...
+[十二月 25, 2021 7:00:32][ServerSync] 详细: File size is: 1043536
+[十二月 25, 2021 7:00:32][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\115.jpg, to client: /127.0.0.1
+[十二月 25, 2021 7:00:32][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000
+[十二月 25, 2021 7:01:00][ServerSync] 信息: Received message: 5.EServerMessage.UPDATE_FILE, from client: /127.0.0.1
+[十二月 25, 2021 7:01:00][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 1200000
+[十二月 25, 2021 7:01:00][ServerSync] 信息: Writing C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\116.jpg to client /127.0.0.1...
+[十二月 25, 2021 7:01:00][ServerSync] 详细: File size is: 577261
+[十二月 25, 2021 7:01:00][ServerSync] 信息: Finished writing: C:\Users\NiuZiyi\Desktop\新建文件夹\MCTNO Server\bg\116.jpg, to client: /127.0.0.1
+[十二月 25, 2021 7:01:00][ServerSync] 详细: Reset timeout for client: /127.0.0.1, with a timeout of: 120000

@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "384ed72a-ce74-33e0-9dbf-a17d22988864",
+    "name": "Creepercdn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "247a8c12-3351-3325-9897-0df8e99f6498",
+    "name": "awang",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d5fb6d63-7309-3c1c-88c7-9d24d4ee7a65",
+    "name": "MengXin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b73fc7c4-d697-30af-a751-7628f3bebe2d",
+    "name": "niuziyi",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
